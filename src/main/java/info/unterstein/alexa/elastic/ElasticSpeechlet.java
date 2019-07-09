@@ -14,6 +14,7 @@ public class ElasticSpeechlet implements Speechlet {
 
   private final ElasticSearchClient client;
 
+  // obviously fill out with my own details for host, port n clusterNames
   public ElasticSpeechlet() {
     client = new ElasticSearchClient("your.elastic.url", 9300, "your.cluster.name");
   }
